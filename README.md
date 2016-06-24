@@ -1,5 +1,13 @@
 # Opendime RNG Verify
 
-Private key generation/verification example program. You'll need [this file](https://opendime.com/static/downloads/rng/entropy.txt) containing the user-generated entropy to go with it.
+Private key generation/verification example program. 
 
-You can download a pre-release demo of the [Opendime here](https://opendime.com/downloads). Changes may still happen. 
+Use it like this:
+
+```
+pip install pycoin
+python rngverify.py entropy.txt
+```
+
+You can download more complete demos of the [Opendime here](https://opendime.com/downloads).
+
